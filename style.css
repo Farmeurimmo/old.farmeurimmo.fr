@@ -3,9 +3,9 @@ header {
 }
 
 .top {
-    right: 0px;
-    left: 0px;
-    top: 0px;
+    right: 0;
+    left: 0;
+    top: 0;
     text-decoration: none;
     font-size: 22px;
     position: fixed;
@@ -41,16 +41,21 @@ footer {
     background-color: #333;
 }
 
+a {
+    color: #f2f2f2;
+    text-decoration: none;
+    text-decoration-line: underline;
+}
+
 .copyright {
     background-color: #333;
-    float: center;
     color: #f2f2f2;
     text-align: left;
     padding: 20px 20px;
     text-decoration: none;
     font-size: 14px;
-    right: 0px;
-    left: 0px;
-    bottom: 0px;
+    right: 0;
+    left: 0;
+    bottom: 0;
     position: fixed;
 }
