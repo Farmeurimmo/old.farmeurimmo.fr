@@ -12,10 +12,10 @@ header {
     color: #f2f2f2;
     text-align: center;
     opacity: 80%;
+    position: absolute;
 }
 
 .topnav a {
-    position: static;
     float: left;
     color: #f2f2f2;
     text-align: center;
@@ -47,7 +47,7 @@ body {
     height: 100%;
     font-weight: bold;
     font-size: 18px;
-    color: #8cb20e;
+    color: #5af823;
     text-align: center;
 }
 
@@ -84,12 +84,12 @@ footer {
     text-align: left;
     padding: 10px 16px;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 15px;
     right: 0;
     left: 0;
     bottom: 0;
     position: fixed;
-    opacity: 70%;
+    opacity: 80%;
 }
 
 .copyright a {
