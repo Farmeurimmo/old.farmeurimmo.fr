@@ -78,6 +78,16 @@ align-left {
     box-shadow: inset 0 0 1em lightgreen, 0 0 3em green;
 }
 
+.tableau {
+    text-align: left;
+    width: 100%;
+}
+
+td {
+    border: 1px solid green;
+    padding: 14px;
+}
+
 li {
     list-style-type: none;
 }
