@@ -4,9 +4,10 @@
 <head>
     <meta charset="utf-8">
     <title>Farmeurimmo</title>
-    <link href="assets/style.css" rel="stylesheet">
-    <link href="assets/logo.jpg" rel="icon">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/img/logo.jpg" rel="icon">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="assets/js/clipboard.js"></script>
 </head>
 
 <header>
@@ -25,16 +26,29 @@
 <div class="content">
     <div class="container">
         <br><br>
-        <a href="https://github.com/Farmeurimmo" target="_blank">
-            <div class="download">
-                <h1>Github</h1>
-                <p>Cliquez ici</p>
+        <div class="socials">
+            <div class="export" onclick="copyMailToClipboard()">
+                <img height="64" src="assets/img/mail.png" width="64">
             </div>
-        </a>
+            <a class="export" href="https://github.com/Farmeurimmo" target="_blank">
+                <img height="64" href="https://github.com/Farmeurimmo" src="assets/img/github.png" width="64">
+            </a>
+            <div class="export" onclick="copyDiscordToClipboard()">
+                <img height="64" src="assets/img/discord.svg" width="64">
+            </div>
+        </div>
         <h2>Farmeurimmo</h2>
-        <li><i class="fa fa-angle-right" style="font-weight: bold"></i><i class="fa fa-angle-right" style="font-weight: bold"></i> Développeur Backend & API</li>
-        <li><i class="fa fa-angle-right" style="font-weight: bold"></i><i class="fa fa-angle-right" style="font-weight: bold"></i> Sys.Admin</li>
-        <li><i class="fa fa-angle-right" style="font-weight: bold"></i><i class="fa fa-angle-right" style="font-weight: bold"></i> Amateur de cybersécurité & d'IA</li>
+        <li><i class="fa fa-angle-right" style="font-weight: bold"></i><i class="fa fa-angle-right"
+                                                                          style="font-weight: bold"></i> Développeur
+            Backend & API
+        </li>
+        <li><i class="fa fa-angle-right" style="font-weight: bold"></i><i class="fa fa-angle-right"
+                                                                          style="font-weight: bold"></i> Sys.Admin
+        </li>
+        <li><i class="fa fa-angle-right" style="font-weight: bold"></i><i class="fa fa-angle-right"
+                                                                          style="font-weight: bold"></i> Amateur de
+            cybersécurité & d'IA
+        </li>
     </div>
     <div class="boxe">
         <h2>Qui je suis ?</h2>
@@ -59,9 +73,9 @@
         <table class="tableau">
             <tr>
                 <td>
-                    <img alt="Spigot" height="100" src="assets/spigot.jpg" width="150">
-                    <img alt="BungeeCord" height="100" src="assets/bungee.jpg" width="150">
-                    <img alt="Velocity" height="100" src="assets/velocity.png" width="150">
+                    <img alt="Spigot" height="100" src="assets/img/spigot.jpg" width="150">
+                    <img alt="BungeeCord" height="100" src="assets/img/bungee.jpg" width="150">
+                    <img alt="Velocity" height="100" src="assets/img/velocity.png" width="150">
                 </td>
                 <td>API Minecraft (en java)</td>
                 <td>Plugins minecraft</td>
@@ -69,16 +83,22 @@
             <tr>
                 <td><img
                         alt="Java"
-                        height="100" src="https://camo.githubusercontent.com/65b616ed4448c46e59c11345a1d49a01adc6d51f9bd6e93ee61d29573e04c597/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f6a6176612f6a6176612d6f726967696e616c2d776f72646d61726b2e737667" width="150"></td>
+                        height="100"
+                        src="https://camo.githubusercontent.com/65b616ed4448c46e59c11345a1d49a01adc6d51f9bd6e93ee61d29573e04c597/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f6a6176612f6a6176612d6f726967696e616c2d776f72646d61726b2e737667"
+                        width="150"></td>
                 <td>Java</td>
                 <td>API (spring)</td>
             </tr>
             <tr>
                 <td>
                     <img alt="HTML"
-                         height="100" src="https://camo.githubusercontent.com/89a4f052af35af3ae91139b0da6496483e00d4fb645589fc4d26cf95b42f8454/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f68746d6c352f68746d6c352d706c61696e2d776f72646d61726b2e737667" width="150">
+                         height="100"
+                         src="https://camo.githubusercontent.com/89a4f052af35af3ae91139b0da6496483e00d4fb645589fc4d26cf95b42f8454/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f68746d6c352f68746d6c352d706c61696e2d776f72646d61726b2e737667"
+                         width="150">
                     <img alt="CSS"
-                         height="100" src="https://camo.githubusercontent.com/b3ce9472d369cacc72c37b7be98298b051836c138eada89587178fbd41939043/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f637373332f637373332d706c61696e2d776f72646d61726b2e737667" width="150">
+                         height="100"
+                         src="https://camo.githubusercontent.com/b3ce9472d369cacc72c37b7be98298b051836c138eada89587178fbd41939043/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f637373332f637373332d706c61696e2d776f72646d61726b2e737667"
+                         width="150">
                 </td>
                 <td>HTML + CSS</td>
                 <td>Sites internet</td>
@@ -86,20 +106,22 @@
             <tr>
                 <td><img
                         alt="TS"
-                        height="100" src="https://camo.githubusercontent.com/aa8b3e6b6fc55ea158e132e1c33ba6aa7fe49706a4e4bd64701af1cf89f514b5/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f747970657363726970742f747970657363726970742d6f726967696e616c2e737667" width="150"></td>
+                        height="100"
+                        src="https://camo.githubusercontent.com/aa8b3e6b6fc55ea158e132e1c33ba6aa7fe49706a4e4bd64701af1cf89f514b5/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f747970657363726970742f747970657363726970742d6f726967696e616c2e737667"
+                        width="150"></td>
                 <td>TypeScript</td>
                 <td>API & Cloudflare Workers</td>
             </tr>
             <tr>
                 <td>
                     <img alt="C# & C++" height="100" src="assets/c%23c++.png" width="150">
-                    <img alt="Arduino.cc" height="100" src="assets/arduino.png" width="150">
+                    <img alt="Arduino.cc" height="100" src="assets/img/arduino.png" width="150">
                 </td>
                 <td>C# & C++</td>
                 <td>Cartes arduino</td>
             </tr>
             <tr>
-                <td><img alt="Python" height="100" src="assets/python.png" width="150"></td>
+                <td><img alt="Python" height="100" src="assets/img/python.png" width="150"></td>
                 <td>Python</td>
                 <td>Jeux</td>
             </tr>
