@@ -83,6 +83,21 @@ align-left {
     width: 100%;
 }
 
+h1 {
+    font-size: 64px;
+    color: #f2f2f2;
+}
+
+h2 {
+    font-size: 64px;
+    color: rgba(63, 255, 0, 0.74);
+}
+
+p {
+    font-size: 22px;
+    color: rgba(242, 242, 242, 0.89);
+}
+
 td {
     border: 1px solid green;
     padding: 14px;
@@ -143,6 +158,7 @@ i {
 .boxe {
     text-align: left;
     padding: 26px;
+    color: lightgray;
 }
 
 .tableau {
