@@ -89,6 +89,21 @@ align-left {
     width: 100%;
 }
 
+.half-full {
+    width: 100%;
+    display: inline-block;
+}
+
+.half-left {
+    width: 50%;
+    float: left;
+}
+
+.half-right {
+    width: 50%;
+    float: right;
+}
+
 h1 {
     font-size: 64px;
     color: #f2f2f2;
