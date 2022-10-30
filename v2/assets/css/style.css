@@ -14,7 +14,7 @@
     display: inline-block;
     position: relative;
     border-radius: 50px;
-    font-size: 20px;
+    font-size: 22px;
     text-decoration: none;
     color: #fff;
 }
@@ -61,6 +61,7 @@ body {
 .export:hover {
     box-shadow: 10px 10px 10px #2f2f57;
     scale: 1.05;
+    cursor: pointer;
 }
 
 .content {
@@ -80,6 +81,24 @@ body {
 .content .links {
     float: right;
     width: 40%;
+}
+
+.full {
+    float: left;
+    color: white;
+    max-width: 100%;
+    padding: 40px;
+}
+
+h1 {
+    color: #3cf843;
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+p {
+    font-size: 18px;
+    font-weight: bold;
 }
 
 
