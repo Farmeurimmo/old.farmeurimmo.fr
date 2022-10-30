@@ -1,0 +1,46 @@
+.topnav {
+    position: absolute;
+    padding: 10px 10px;
+    top: 0;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+    background-color: #232341;
+}
+
+.topnav a {
+    margin: 20px 50px;
+    width: auto;
+    display: inline-block;
+    position: relative;
+    border-radius: 50px;
+    font-size-adjust: 0.6;
+    text-decoration: none;
+    color: #fff;
+}
+
+.topnav a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #6dff00;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.topnav a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+body {
+    background-color: #1a1a34;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    min-height: 120vh;
+}
