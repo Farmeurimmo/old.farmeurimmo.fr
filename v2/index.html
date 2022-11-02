@@ -8,6 +8,7 @@
     <link href="assets/img/logo.jpg" rel="icon">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="assets/js/clipboard.js"></script>
+    <script src="assets/js/commitHash.js"></script>
 </head>
 
 <header>
@@ -75,7 +76,9 @@
             OpenSource</a> |
             <a href="https://pages.dev" target="_blank">Hébergeur</a> | <a href="https://cloudflare.com"
                                                                            target="_blank">Protections</a>
-            | Version : %CF_PAGES_COMMIT_SHA% </p>
+            | Version :
+            <script>getHash()</script>
+        </p>
     </div>
 </footer>
 
