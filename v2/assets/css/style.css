@@ -96,6 +96,13 @@ p {
     text-decoration: none;
 }
 
+li {
+    font-size: 22px;
+    font-weight: lighter;
+    color: #f2f2f2;
+    padding: 12px;
+}
+
 footer .content {
     display: inline-flex;
     margin-top: 90px;
