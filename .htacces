@@ -1,0 +1,6 @@
+<Files .htaccess>
+  Order allow,deny
+  Deny from all
+</Files>
+RedirectMatch 404 /\.git
+ErrorDocument 404 error.html
