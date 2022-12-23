@@ -117,7 +117,6 @@ footer .content {
   margin-top: 90px;
   padding: 8px 30px;
   width: 100vh;
-  max-width: 100vh;
 }
 
 footer a, .topnav a {
@@ -146,13 +145,17 @@ footer a:hover:after, .topnav a:hover:after {
   transform-origin: bottom left;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 928px) {
   .content .presentation {
     width: 100%;
   }
 
   .content .links {
     width: 100%;
+  }
+
+  footer .content {
+    max-width: 40vh;
   }
 }
 
