@@ -91,6 +91,11 @@ p {
   color: #f2f2f2;
 }
 
+.img-stats {
+  display: inline-flex;
+  width: 100%;
+}
+
 .social {
   float: left;
   scale: 1.25;
@@ -151,6 +156,11 @@ footer a:hover:after, .topnav a:hover:after {
   }
 
   .content .links {
+    width: 100%;
+  }
+
+  .img-stats {
+    display: block;
     width: 100%;
   }
 
