@@ -157,16 +157,17 @@ footer a:hover:after, .topnav a:hover:after {
         width: 100%;
     }
 
-    .img-stats {
-        display: block;
-        width: 100%;
-    }
-
     footer .content {
         max-width: 45vh;
     }
 }
 
+@media screen and (max-width: 1600px) {
+    .img-stats {
+        display: block;
+        width: 95%;
+    }
+}
 
 
 
