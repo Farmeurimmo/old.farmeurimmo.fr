@@ -23,7 +23,7 @@ a:hover {
     color: #2f69a8;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     ul {
         flex-direction: column;
         gap: 20px;
