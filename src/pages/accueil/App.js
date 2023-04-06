@@ -2,6 +2,7 @@ import './App.css';
 import React from "react";
 import Presentation from "./Presentation";
 import Head from "react-document-configuration";
+import MesLangages from "./MesLangages";
 
 function App() {
     return (
@@ -28,6 +29,7 @@ function App() {
                     donc définitivement passé sous Kali (Linux) depuis 3 ans. Avec Kali vient une suite d'outils très
                     performants qui m'ont fait plonger dans la cybersécurité.</p>
             </section>
+            <MesLangages/>
         </div>
     );
 }
