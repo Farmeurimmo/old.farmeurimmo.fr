@@ -5,43 +5,63 @@ section {
 img {
     width: 360px;
     height: 360px;
-    float: left;
-    margin: 5px;
     border-radius: 400px;
+    margin: auto;
+}
+
+.profile {
+    gap: 26px;
+    display: flex;
+    flex-direction: row;
+    background-color: #182e69;
+    border-radius: 40px;
+    margin: auto;
+    padding: 40px;
 }
 
 .present {
-    float: right;
-    margin: 40px;
+    margin: auto;
+    display: flex;
     color: white;
+    justify-content: center;
+    text-align: left;
+    flex-direction: column;
 }
 
 .presentation {
+    justify-content: center;
     display: flex;
+    flex-direction: row;
+    gap: 40px;
 }
 
 .list {
-    margin-top: 30px;
-    margin-left: 40px;
+    scale: 0.90;
     padding: 0;
     background: inherit;
     font-size: 30px;
     display: flex;
     flex-direction: column;
-    scale: 0.95;
+    justify-content: center;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
+
     .presentation {
         flex-direction: column;
+        justify-items: center;
     }
 
     .present {
-        margin: 10px;
+        text-align: center;
+    }
+
+    .profile {
+        flex-direction: column;
     }
 
     .list {
-        margin: 10px;
+        margin: auto;
         font-size: 26px;
         line-height: 1.6;
     }

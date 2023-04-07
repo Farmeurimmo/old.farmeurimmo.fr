@@ -7,8 +7,9 @@
 
 .meslangages {
     display: flex;
-    background-color: #254d8a;
     flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #254d8a;
 }
 
 .hpres {
@@ -21,4 +22,19 @@
 .meslang {
     margin: 0;
     padding: 0;
+}
+
+img {
+    margin-right: auto;
+}
+
+@media screen and (max-width: 1000px) {
+    .meslangages {
+        justify-items: center;
+    }
+
+    .lang {
+        margin-right: auto;
+        margin-left: auto;
+    }
 }

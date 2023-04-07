@@ -3,16 +3,13 @@ import "./Footer.css"
 function Footer() {
     return (
         <footer>
-            <div className="footer">
-                <div className="left">
-                <p>Farmeurimmo &copy; 2018 - 2023</p>
-                </div>
-                <div className="right">
-                <ul>
-                    <li><a className="footer_list_ele" href="https://github.com/Farmeurimmo/farmeurimmo.fr">Github</a></li>
-                </ul>
-                </div>
-            </div>
+            <p className="links">
+                <a className="link" href="https://farmeurimmo.fr">Farmeurimmo &copy; 2018 - 2023</a>
+                <a className="link" href="https://github.com/Farmeurimmo/farmeurimmo.fr">Github</a>
+                <a className="link" href="https://fr.reactjs.org">Technologie utilisée</a>
+                <a className="link" href="https://pages.dev">Hébergeur</a>
+                <a className="link" href="https://cloudflare.com">Protections</a>
+            </p>
         </footer>
     )
 }
