@@ -2,7 +2,7 @@ import './App.css';
 import React from "react";
 import Presentation from "./Presentation";
 import Head from "react-document-configuration";
-import MesLangages from "./MesLangages";
+import MesLangages from "../common/MesLangages";
 
 function App() {
     return (
