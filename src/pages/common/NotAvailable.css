@@ -1,0 +1,11 @@
+.space {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.notavailable img {
+    scale: 1.5;
+    border-radius: 25px;
+}

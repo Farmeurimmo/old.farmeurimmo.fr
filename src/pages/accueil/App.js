@@ -3,6 +3,7 @@ import React from "react";
 import Presentation from "./Presentation";
 import Head from "react-document-configuration";
 import MesLangages from "../common/MesLangages";
+import MesOutils from "../common/MesOutils";
 
 function App() {
     return (
@@ -30,6 +31,7 @@ function App() {
                     performants qui m'ont fait plonger dans la cybersécurité.</p>
             </section>
             <MesLangages/>
+            <MesOutils/>
         </div>
     );
 }

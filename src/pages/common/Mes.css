@@ -1,12 +1,21 @@
 .lang {
     border-radius: 25px;
-    width: 250px;
+    width: 300px;
+    height: 250px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.langspe {
+    width: 500px;
+    border-radius: 25px;
     height: 250px;
     margin-right: auto;
     margin-left: auto;
 }
 
 .meslangages {
+    gap: 20px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
