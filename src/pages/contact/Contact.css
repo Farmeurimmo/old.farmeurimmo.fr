@@ -1,0 +1,22 @@
+.contact-container {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    max-width: 100%;
+}
+
+.contact-container h1 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.img-stats img {
+    border-radius: 0;
+    width: auto;
+    display: flex;
+    margin: 20px auto;
+    height: auto;
+}

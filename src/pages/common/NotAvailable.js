@@ -7,7 +7,7 @@ function NotAvailable() {
         <div className="space">
             <Head title="Erreur" icon="logo.jpg"/>
             <div className="notavailable">
-                <img alt="Not Available" className="catimg" src="https://http.cat/401.jpg"/>
+                <img alt="Not Available" className="catimg" src="https://http.cat/204.jpg"/>
             </div>
         </div>
     )

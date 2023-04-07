@@ -14,3 +14,14 @@ code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1 {
+    font-size: 3rem;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1000px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+}

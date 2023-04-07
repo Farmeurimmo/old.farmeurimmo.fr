@@ -8,6 +8,9 @@ import NotFound from "./pages/notfound/NotFound";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import NotAvailable from "./pages/common/NotAvailable";
 import Head from "react-document-configuration";
+import Dev from "./pages/dev/Dev";
+import As from "./pages/as/As";
+import Contact from "./pages/contact/Contact";
 
 export default function App() {
     return (
@@ -16,9 +19,9 @@ export default function App() {
             <Header/>
             <Routes>
                 <Route path="/" element={<Home/>}/>
-                <Route path="/dev" element={<NotAvailable/>}/>
-                <Route path="/as" element={<NotAvailable/>}/>
-                <Route path="/contact" element={<NotAvailable/>}/>
+                <Route path="/dev" element={<Dev/>}/>
+                <Route path="/as" element={<As/>}/>
+                <Route path="/contact" element={<Contact/>}/>
                 <Route path="/projets" element={<NotAvailable/>}/>
                 <Route path="*" element={<NotFound/>}/>
             </Routes>
