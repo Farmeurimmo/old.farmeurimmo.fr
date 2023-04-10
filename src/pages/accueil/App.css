@@ -1,13 +1,11 @@
 body {
     margin: 0;
-    background-color: #043d77;
     color: aliceblue;
 }
 
 .app {
     margin-top: 30px;
     text-align: center;
-    background-color: #234272;
 }
 
 section {
