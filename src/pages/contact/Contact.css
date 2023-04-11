@@ -57,6 +57,10 @@ form {
     outline: none;
 }
 
+#message::placeholder {
+    text-align: center;
+}
+
 #message {
     text-align: left;
     min-height: 300px;
@@ -90,4 +94,10 @@ form {
     background-color: #18bec4;
     color: white;
     scale: 1.1;
+}
+
+.errorMsg {
+    color: red;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
