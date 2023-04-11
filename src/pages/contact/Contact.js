@@ -29,10 +29,8 @@ export default function App() {
     const sendEmail = () => {
         emailjs.sendForm('service_ctklrym', 'template_p3bze2i', form.current, '5m__Y8nAXVr7eQkvd')
             .then((result) => {
-                console.log(result.text);
                 alert("Message envoyé avec succès");
             }, (error) => {
-                console.log(error.text);
                 alert("Erreur lors de l'envoi du message");
             });
     };
