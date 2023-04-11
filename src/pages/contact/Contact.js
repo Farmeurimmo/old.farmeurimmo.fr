@@ -29,6 +29,10 @@ export default function App() {
     const form = useRef();
 
     const sendEmail = () => {
+        console.log("Sending email");
+        console.log(process.env.REACT_SERVICEID);
+        console.log(process.env.REACT_TEMPLATEID);
+        console.log(process.env.REACT_PUBLICKEY);
         emailjs.sendForm(process.env.REACT_SERVICEID, process.env.REACT_TEMPLATEID, form.current, process.env.REACT_PUBLICKEY)
             .then((result) => {
                 console.log(result.text);
