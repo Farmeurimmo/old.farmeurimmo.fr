@@ -27,13 +27,7 @@ export default function App() {
     const form = useRef();
 
     const sendEmail = () => {
-        console.log("Sending email");
-        console.log(process.env.REACT_SERVICEID);
-        console.log(process.env.REACT_TEMPLATEID);
-        console.log(process.env.REACT_PUBLICKEY);
-        console.log(process.env.CF_PAGES_COMMIT_SHA)
-        console.log(process.env.CF_PAGES_COMMIT_URL)
-        emailjs.sendForm(process.env.REACT_SERVICEID, process.env.REACT_TEMPLATEID, form.current, process.env.REACT_PUBLICKEY)
+        emailjs.sendForm('service_ctklrym', 'template_p3bze2i', form.current, '5m__Y8nAXVr7eQkvd')
             .then((result) => {
                 console.log(result.text);
                 alert("Message envoyé avec succès");
