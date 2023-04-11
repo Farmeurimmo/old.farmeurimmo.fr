@@ -32,6 +32,7 @@ export default function App() {
         console.log(process.env.REACT_TEMPLATEID);
         console.log(process.env.REACT_PUBLICKEY);
         console.log(process.env.CF_PAGES_COMMIT_SHA)
+        console.log(process.env.CF_PAGES_COMMIT_URL)
         emailjs.sendForm(process.env.REACT_SERVICEID, process.env.REACT_TEMPLATEID, form.current, process.env.REACT_PUBLICKEY)
             .then((result) => {
                 console.log(result.text);
