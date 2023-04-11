@@ -20,9 +20,7 @@ export default function App() {
         }
     });
 
-    const onSubmit = (data) => {
-        console.log(data);
-
+    const onSubmit = () => {
         sendEmail();
     };
 
@@ -33,6 +31,7 @@ export default function App() {
         console.log(process.env.REACT_SERVICEID);
         console.log(process.env.REACT_TEMPLATEID);
         console.log(process.env.REACT_PUBLICKEY);
+        console.log(process.env.CF_PAGES_COMMIT_SHA)
         emailjs.sendForm(process.env.REACT_SERVICEID, process.env.REACT_TEMPLATEID, form.current, process.env.REACT_PUBLICKEY)
             .then((result) => {
                 console.log(result.text);
