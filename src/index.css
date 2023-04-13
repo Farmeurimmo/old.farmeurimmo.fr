@@ -21,6 +21,32 @@ h1 {
     justify-content: center;
 }
 
+.animated, .link {
+    width: auto;
+    position: relative;
+    border-radius: 50px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.animated:after, .link:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: #6dff00;
+    transform-origin: bottom left;
+    transition: transform 0.25s ease-out;
+}
+
+.animated:hover:after, .link:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
 @media screen and (max-width: 1000px) {
     h1 {
         font-size: 1.8rem;
