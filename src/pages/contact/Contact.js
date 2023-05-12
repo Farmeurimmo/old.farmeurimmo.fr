@@ -117,7 +117,7 @@ export default function App() {
                     />
                 </Form.Text>
                 <Button type="submit" variant="primary" className="field" id="submit-btn">
-                    Submit
+                    Envoyer
                 </Button>
             </form>
         </div>
