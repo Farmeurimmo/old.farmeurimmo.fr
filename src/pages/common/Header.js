@@ -11,6 +11,7 @@ function App() {
                     <li><a className="animated" href="/dev">Développement</a></li>
                     <li><a className="animated" href="/as">Administration Système</a></li>
                     <li><a className="animated" href="/projets">Mes projets</a></li>
+                    <li><a className="animated" href="/avis">Avis</a></li>
                     <li><a className="animated" href="/contact">Contact</a></li>
                 </ul>
             </nav>
