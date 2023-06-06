@@ -1,6 +1,3 @@
-.notfound {
-}
-
 .space {
     display: flex;
     flex-wrap: wrap;
@@ -10,16 +7,27 @@
     min-height: 100vh;
 }
 
-p {
+.large-space .badges {
+    margin-top: 40px;
+}
+
+.notfound h1 {
+    transform: translateY(-200px);
+}
+
+.notfound p {
     font-size: 26px;
     justify-content: center;
     margin-left: 20px;
+    transform: translateY(-200px);
 }
 
-.cat {
+.notfound .cat {
     border-radius: 0;
     justify-content: center;
     margin-left: 20px;
+    transform: translateY(-200px);
+
 }
 
 

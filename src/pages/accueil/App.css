@@ -8,6 +8,10 @@ body {
     text-align: center;
 }
 
+.app-accueil .badges {
+    margin-top: 40px;
+}
+
 section {
 
 }

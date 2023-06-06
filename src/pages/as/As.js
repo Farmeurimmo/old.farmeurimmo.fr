@@ -2,11 +2,13 @@ import "./As.css"
 import MesOutils from "../common/MesOutils";
 import React from "react";
 import Head from "react-document-configuration";
+import Badges from "../common/Badges";
 
 function As() {
     return (
         <div className="as-container">
             <Head title="Administrateur Système - Farmeurimmo" icon="logo.jpg"/>
+            <Badges/>
             <h1>Mes compétences</h1>
             <p>Installation & sécurisation de serveur</p>
             <p>Installation de panel : portainer ou pterodactyl</p>

@@ -1,11 +1,13 @@
 import "./Projets.css"
 import Head from "react-document-configuration";
 import React from "react";
+import Badges from "../common/Badges";
 
 function Projets() {
     return (
         <div className="projets-container">
             <Head title="Projets - Farmeurimmo" icon="logo.jpg"/>
+            <Badges/>
             <font color="orange">
                 <p><b>/!\ Généralement le contenu a été abrégé et simplifié pour permettre une meilleure compréhension. Des éléments peuvent manquer.</b></p>
                 <p><b>Les projets sont classés du plus récent au plus vieux.</b></p>

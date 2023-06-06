@@ -1,0 +1,63 @@
+.badges {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.badges button, .badges a {
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    border-radius: 0;
+    margin: 0 5px;
+}
+
+.badges a {
+    float: left;
+    width: auto;
+    padding: 0 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(-45deg, #0c387a, #1d63e3, #23a6d5, #001685);
+    background-size: 400% 400%;
+    animation: gradient 8s ease infinite;
+}
+
+.badges a:hover {
+    font-weight: bold;
+}
+
+.badges img {
+    float: right;
+    border-radius: 0;
+    width: 350px;
+    height: 50px;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    .badges {
+        flex-direction: column;
+    }
+
+    .badges a {
+        margin-top: 15px;
+    }
+
+}
