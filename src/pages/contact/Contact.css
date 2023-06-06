@@ -44,6 +44,10 @@ form {
     padding: 10px;
 }
 
+.field:focus {
+    background-color: #cbc7c7;
+}
+
 .content {
     text-align: center;
     width: 75%;
@@ -53,11 +57,15 @@ form {
 }
 
 .content:focus {
-    outline: none;
+    background-color: #cbc7c7;
 }
 
 #message::placeholder {
     text-align: center;
+}
+
+#message:focus {
+    background-color: #cbc7c7;
 }
 
 #message {

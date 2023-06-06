@@ -45,6 +45,7 @@ export default function App() {
                     <Form.Control
                         type="text"
                         className="content"
+                        id="field"
                         placeholder="Entrez votre pseudo / appellation / nom"
                         {...register("pseudo", {
                                 required: "Merci d'entrer votre pseudo / appellation / nom",
@@ -66,6 +67,7 @@ export default function App() {
                     <Form.Control
                         type="email"
                         className="content"
+                        id="field"
                         placeholder="Entrez votre email"
                         {...register("email", {
                             required: "Merci d'entrer votre adresse email",
@@ -86,7 +88,7 @@ export default function App() {
                 </Form.Group>
                 <Form.Group className="field" controlId="raison">
                     <Form.Label>Raison</Form.Label>
-                    <Form.Select className="field" {...register("raison")} placeholder="Choisissez une option"
+                    <Form.Select id="field" className="field" {...register("raison")} placeholder="Choisissez une option"
                                  id="choices">
                         <option id="choice" value="projet">Projet</option>
                         <option id="choice" value="recrutement">Recrutement</option>
