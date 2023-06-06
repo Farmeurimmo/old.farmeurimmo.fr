@@ -10,7 +10,7 @@ function Dev() {
             <h1>Mes statistiques</h1>
             <div className="img-stats">
                 <img alt="readme-stats" id="mid-size-readme-stats"
-                     src="https://github-readme-stats.vercel.app/api?username=Farmeurimmo&count_private=true&show_icons=true&theme=radical"/>
+                     src="https://github-readme-stats.farmeurimmo.fr/api?username=Farmeurimmo&count_private=true&show_icons=true&theme=radical"/>
                 <img alt="wakatime" id="mid-size-wakatime"
                      src="https://raw.githubusercontent.com/Farmeurimmo/Farmeurimmo/main/images/stat.svg"/>
             </div>
