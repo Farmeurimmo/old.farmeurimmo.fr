@@ -88,8 +88,8 @@ export default function App() {
                 </Form.Group>
                 <Form.Group className="field" controlId="raison">
                     <Form.Label>Raison</Form.Label>
-                    <Form.Select id="field" className="field" {...register("raison")} placeholder="Choisissez une option"
-                                 id="choices">
+                    <Form.Select id="choices" className="field" {...register("raison")}
+                                 placeholder="Choisissez une option">
                         <option id="choice" value="projet">Projet</option>
                         <option id="choice" value="recrutement">Recrutement</option>
                         <option id="choice" value="autre">Autre</option>
