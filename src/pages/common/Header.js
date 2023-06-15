@@ -1,6 +1,6 @@
 import '../accueil/App.css';
 import React from "react";
-import "./Header.css"
+import "./Header.css";
 
 function App() {
     return (
@@ -12,11 +12,9 @@ function App() {
                     <li><a className="animated" href="/as">Administration Système</a></li>
                     <li><a className="animated" href="/projets">Mes projets</a></li>
                     <li><a className="animated" href="/avis">Avis</a></li>
-                    <li><a className="animated" href="/contact">Contact</a></li>
                 </ul>
             </nav>
         </header>
-
     );
 }
 

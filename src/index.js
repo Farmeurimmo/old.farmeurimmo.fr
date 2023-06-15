@@ -11,7 +11,6 @@ import Head from "react-document-configuration";
 import Dev from "./pages/dev/Dev";
 import As from "./pages/as/As";
 import Projets from "./pages/projets/Projets";
-import Contact from "./pages/contact/Contact";
 
 export default function App() {
     return (
@@ -22,7 +21,6 @@ export default function App() {
                 <Route path="/" element={<Home/>}/>
                 <Route path="/dev" element={<Dev/>}/>
                 <Route path="/as" element={<As/>}/>
-                <Route path="/contact" element={<Contact/>}/>
                 <Route path="/projets" element={<Projets/>}/>
                 <Route path="/avis" element={<NotAvailable/>}/>
                 <Route path="*" element={<NotFound/>}/>

@@ -13,7 +13,6 @@ function App() {
             <a className="animated"
                href="mailto:contact@farmeurimmo.fr?subject='Bonjour, je vous contact depuis votre site pour ?'&body='Bonjour, ....'">Envoyer
                 un mail</a>
-            <a className="animated" href="/contact">Remplir un formulaire de contact</a>
         </div>
     );
 }
