@@ -33,7 +33,9 @@
     font-size: 1.3rem;
     line-height: 2rem;
     color: #f5f1f1;
-    text-align: center;
+    text-align: justify;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 .projets-container table {
