@@ -2,13 +2,11 @@ import "./Dev.css"
 import MesLangages from "../common/MesLangages";
 import Head from "react-document-configuration";
 import React from "react";
-import Badges from "../common/Badges";
 
 function Dev() {
     return (
         <div className="dev-container">
             <Head title="Développeur - Farmeurimmo" icon="logo.jpg"/>
-            <Badges/>
             <h1>Mes statistiques</h1>
             <div className="img-stats">
                 <img alt="readme-stats" id="mid-size-readme-stats"

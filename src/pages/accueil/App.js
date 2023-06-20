@@ -4,13 +4,11 @@ import Presentation from "./Presentation";
 import Head from "react-document-configuration";
 import MesLangages from "../common/MesLangages";
 import MesOutils from "../common/MesOutils";
-import Badges from "../common/Badges";
 
 function App() {
     return (
         <div className="app-accueil">
             <Head title="Accueil - Farmeurimmo" icon="logo.jpg"/>
-            <Badges/>
             <Presentation/>
             <section id={""} className="app">
                 <h1>Qui suis-je ?</h1>

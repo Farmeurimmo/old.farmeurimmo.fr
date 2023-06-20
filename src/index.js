@@ -11,12 +11,16 @@ import Head from "react-document-configuration";
 import Dev from "./pages/dev/Dev";
 import As from "./pages/as/As";
 import Projets from "./pages/projets/Projets";
+import Info from "./pages/common/Info";
+import Badges from "./pages/common/Badges";
 
 export default function App() {
     return (
         <BrowserRouter>
             <Head title="Chargement..." icon="logo.jpg"/>
             <Header/>
+            <Info/>
+            <Badges/>
             <Routes>
                 <Route path="/" element={<Home/>}/>
                 <Route path="/dev" element={<Dev/>}/>

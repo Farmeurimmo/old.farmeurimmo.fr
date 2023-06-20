@@ -1,12 +1,10 @@
 import React from "react";
 import "./NotFound.css"
 import Head from "react-document-configuration";
-import Badges from "../common/Badges";
 
 function NotFound() {
     return (
         <div className="large-space">
-            <Badges/>
             <Head title="Page non trouvée - Farmeurimmo" icon="logo.jpg"/>
             <div className="space">
                 <div className="notfound">
